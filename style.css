@@ -27,11 +27,19 @@ h1 {
   color: #444;
 }
 
-.photo {
-  width: 100%;
-  border-radius: 15px;
-  margin: 15px 0;
+.photos {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
+
+.photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 
 button {
   background: #ff4d6d;
