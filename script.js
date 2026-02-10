@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
       index++;
       setTimeout(typeNextChar, 50); // adjust typing speed
     } else {
-      button.textContent = "You got mail! 💖";
+      button.textContent = "You got mail! 💌";
     }
   }
 });
