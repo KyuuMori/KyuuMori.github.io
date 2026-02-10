@@ -162,3 +162,13 @@ button:hover {
   }
 }
 
+.typewriter {
+  color: #ff4d6d;
+  font-weight: bold;
+  margin-top: 15px;
+  min-height: 60px; /* ensures space before typing */
+  white-space: pre-wrap; /* preserves line breaks */
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+}
+
