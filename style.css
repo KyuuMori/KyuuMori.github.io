@@ -108,11 +108,11 @@ button:hover {
 
 .hearts span {
   position: absolute;
-  bottom: -50px;
-  font-size: 24px;
-  animation: floatUp 8s linear infinite;
-  opacity: 0;
+  bottom: 50%;
+  font-size: 40px;
+  opacity: 1;
 }
+
 
 /* Random-ish positions and delays */
 .hearts span:nth-child(1) { left: 10%; animation-delay: 0s; }
