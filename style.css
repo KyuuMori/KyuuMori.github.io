@@ -23,6 +23,8 @@ body {
   text-align: center;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   animation: fadeIn 1.5s ease;
+  position: relative;
+  z-index: 1;
 }
 
 /* Heading */
